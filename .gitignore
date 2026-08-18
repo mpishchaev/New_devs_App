@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.vite/
+npm-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Local environment
+.env.local
+.env.*.local
+
+# Tooling / editors
+.playwright-mcp/
+.DS_Store
